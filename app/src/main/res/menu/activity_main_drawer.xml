@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grade"
+            android:icon="@drawable/ic_grade"
+            android:title="个人收藏" />
+        <item
+            android:id="@+id/nav_restore"
+            android:icon="@drawable/ic_restore"
+            android:title="浏览记录" />
+    </group>
+    <item
+        android:id="@+id/nav_ti"
+        android:icon="@drawable/ic_mode_edit"
+        android:title="答题评测" />
+</menu>

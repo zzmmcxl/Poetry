@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388e3c</color>
+    <color name="colorPrimaryDark">#00600f</color>
+    <color name="colorAccent">#fbc02d</color>
+    <color name="colorPrimaryLight">#6abf69</color>
+    <color name="text_write">#FFFFFF</color>
+    <color name="text_blank">#333333</color>
+    <color name="text_gary">#595959</color>
+    <color name="text_shen_acc">#ff007b</color>
+
+
+    <color name="bg_blank">#333333</color>
+    <color name="bg_gary">#bdbaba</color>
+    <color name="bg_write">#FFFFFF</color>
+
+</resources>

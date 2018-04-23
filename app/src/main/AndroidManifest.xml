@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shi">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="登录" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.RegisterActivity"
+            android:label="注册" />
+        <activity
+            android:name=".me.MeActivity"
+            android:label="个人中心" />
+        <activity
+            android:name=".result.ResultActivity"
+            android:label="搜索结果" />
+        <activity
+            android:name=".board.BoardActivity"
+            android:label="类别" />
+        <activity android:name=".ContentActivity" />
+        <activity
+            android:name=".like.LikeActivity"
+            android:label="收藏" />
+        <activity android:name=".HisActivity" />
+        <activity android:name=".TiActivity" />
+        <activity android:name=".DoTiActivity" />
+        <activity android:name=".PaiActivity"></activity>
+    </application>
+
+</manifest>
